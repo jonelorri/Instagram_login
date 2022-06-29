@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root {
+    background-color: rgb(250, 250, 250);
+    height: 100vh;
+    min-height: 800px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor {
+    min-height: 615px;
+    width: 780px;
+    margin: auto;
+    background-image: url(./img/fondo0.jpg);
+    background-size: cover;
+}
+.footer {
+    min-height: 150px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+.footer h6 {
+    cursor: pointer;
+    margin: 10px 10px;
+    font-size: 11px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.451);
+    font-weight: 500;
+}
+.footer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenido0 {
+    width: 780px;
+    min-height: 615px;
+    margin: auto;
+}
+.contenido1 {
+    background-image: url(./img/fondo1.png);
+    background-size: cover;
+    transition: all ease 2s;
+}
+.contenido2 {
+    background-image: url(./img/fondo2.png);
+    background-size: cover;
+    transition: all ease 2s;
+}
+.contenido3 {
+    background-image: url(./img/fondo3.png);
+    background-size: cover;
+    transition: all ease 2s;
+}
+.datos {
+    float: right;
+}
+.datos1{
+    height: 396px;
+    width: 348px;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1px;
+}
+.datos1-2{
+    height: 396px;
+    width: 348px;
+    margin-right: 10px;
+    margin-top: 25px;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 1px;
+    display: none;
+    background-image: url('./img/fondo4.jpg');
+    background-size: cover;
+}
+.datos1-2 p {
+    margin-top: 310px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.displayblock {
+    display: block;
+}
+.datos1 .logo {
+    height: 51px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.datos1 input {
+    width: 268px;
+    flex: 1 0 auto;
+    outline: 0;
+    padding: 12px 0 12px 8px;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 7px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 3px;
+    font-size: 13px;
+}
+.datos1 .entrar {
+    width: 268px;
+    padding: 8px 0 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(59, 149, 252);
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.datos1 p {
+    margin-top: 20px;
+}
+.datos1 .o {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.35);
+}
+.datos1 .fb {
+    color: #3d5181;
+    cursor: pointer;
+}
+.datos1 form {
+    display: flex;
+    flex-direction: column;
+}
+.datos1 .last {
+    margin-bottom: 25px;
+    font-size: 12px;
+    color: #3d5181;
+    cursor: pointer;
+}
+.datos2 {
+    height: 63px;
+    width: 348px;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.datos2 p {
+    font-size: 14px;
+}
+.datos2 a {
+    color: rgb(59, 149, 252);
+    cursor: pointer;
+}
+.play-store {
+    width: 348px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+@media (max-width: 823px) {
+    #images {
+      background-color: rgb(250, 250, 250);
+      background-image: none;
+      transition: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+        background-color: rgb(250, 250, 250);
+    }
+    .footer {
+        display: none;
+    }
+    .contenedor {
+        width: 100%;
+    }
+    .datos1 {
+        margin: auto;
+    }
+    .datos1-2 {
+        margin: auto;
+    }
+  }
