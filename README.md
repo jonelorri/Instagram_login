@@ -22,4 +22,4 @@ You can find the api key, creating an account https://sheet.best/ and opening a 
 
 <img width="1003" alt="Captura de Pantalla 2022-06-29 a las 17 02 21" src="https://user-images.githubusercontent.com/90343007/176469913-4edcbdab-37ce-4218-a99a-8a13303d0d96.png">
 
-2. Upload the files to your replit account https://replit.com
+2. Upload the files to your replit account 'https://replit.com' so everyone can acces to your site
