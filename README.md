@@ -1,7 +1,6 @@
 # Instagram-login
 
 This project is a fully functional Instagram Login feed.
-**I just made it for fun, please dont use it to hack other people.**
 
 Here you can see my own webpage -> https://ig-login.jonelorriaga.repl.co/
 
